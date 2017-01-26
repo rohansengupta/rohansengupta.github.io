@@ -1,0 +1,68 @@
+body {
+background-color: gray;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#top_photo
+{
+position: absolute;
+left: 15%;
+right: 15%; 
+height:120px;
+}
+#menu{
+ position: absolute;
+ top: 130px;
+ left: 15%;
+ right: 15%;
+width: 1075px;
+background-color: grey;
+}
+/**/
+#menu ul li {
+list-style: none;   /*inorder to remove the bullets*/
+background-color: black;
+border:0.5px solid grey;
+width: 160px;
+
+text-align: center;
+line-height: 50px;
+float: left;
+margin-right: 0px;
+color: white;
+position: relative;
+border-radius: 10px;
+}
+
+#menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	display: block;
+}
+/*
+#menu ul li ul li {
+	width: 160px;
+}
+*/
+
+#menu ul li a:hover  {
+	background-color:#373737;
+	border-radius: 10px;
+}
+#menu ul ul{
+	position: absolute;
+	display: none;
+}
+#menu ul li:hover>ul{
+	display: block;
+}
+#menu ul ul ul{
+	margin-left: 160px;
+	top: 0px;
+}
+i{
+	padding-left: 10px;
+}
