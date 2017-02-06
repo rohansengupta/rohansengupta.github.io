@@ -7,10 +7,12 @@
 <style type="text/css">
 
 body {
-	
- background-image: url("FrontCover.jpg");
- background-size: cover;
-display:block;
+	 
+  
+ background-image: url("FrontCover.jpg") ;
+    background-repeat: no-repeat;
+background-position: 0 0;
+  background-size:cover;
 }
 canvas {
 	display: block;
@@ -19,28 +21,25 @@ canvas {
 </style>
 
 <body>
+
+
 	<div id = "photo" >
 <img  height="100" src="pic.jpg">
+
+  KNOWLEDGE IS POWER.
+
  </div>
 <style> 
 #photo{
 position:absolute;
 top :42%;
-left:35%;}
-  </style>
-
-<div id = "text" >
-  KNOWLEDGE IS POWER.
- </div>
-<style> 
-#text{
-position:absolute;
-top :45%;
-left:50%;
+left:35%;
 color:white;
 font-size: 50px;
+
 }
   </style>
+
 
 
 
@@ -57,8 +56,8 @@ window.onload = function(){
 	//canvas dimensions
 	var W = window.innerWidth;
 	var H = window.innerHeight;
-	canvas.width = W-50;
-	canvas.height = H-50;
+	canvas.width = W;
+	canvas.height = H;
 	
 	//snowflake particles
 	var mp = 25; //max particles
