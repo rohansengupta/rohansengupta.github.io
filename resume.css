@@ -1,0 +1,143 @@
+* {
+	 
+  padding:0; 
+  margin: 0;
+
+}
+#menubar{
+position: absolute;
+width: 100%;
+height: 50px;
+background-color: yellow;
+
+top:0%;
+left:0px;
+}
+
+
+canvas {
+	display: block;
+	background-image: url("FrontCover.jpg") ;
+    background-repeat: no-repeat;
+background-position: 0 0;
+  background-size:cover;
+	}
+
+#photo{
+position:absolute;
+top :42%;
+left:30%;
+color:white;
+font-size: 50px;
+}
+#container1{
+  position: absolute;
+	width: 100%;
+	top :100%;
+	background-color: green;
+background-image: url("par1.jpg");
+background-size: cover;
+}
+#container2{
+  position: absolute;
+	width: 100%;
+	top :205%;
+	
+	background-image: url("par2.jpg");
+     background-size: cover;
+}
+
+#container3{
+  position: absolute;
+	width: 100%;
+	top :310%;
+	
+	background-image: url("par3.jpg");
+     background-size: cover;
+}
+
+
+#cover{
+position: absolute;
+	width: 100%;
+	top: 415%;
+	
+	background-image: url("endpic.jpg");
+	background-size: cover;
+	}
+
+#insidecover{
+	height: 500px;
+     position: relative;
+     width: 100%;
+     background-color: violet;
+}
+
+#up1{
+	position: relative;
+	height: 60vh;
+	width: 100%;
+	background-color: blue;
+}
+#down1{
+ position: relative;
+	height: 40vh;
+	width: 100%;
+}
+
+
+#up2{
+	position: relative;
+	height: 60vh;
+	width: 100%;
+	background-color: red;
+}
+#down2{
+ position: relative;
+	height: 40vh;
+	width: 100%;
+}
+
+
+
+#up3{
+	position: relative;
+	height: 60vh;
+	width: 100%;
+	background-color: orange;
+}
+#down3{
+ position: relative;
+	height: 40vh;
+	width: 100%;
+}
+
+
+/*
+#cover {
+	background-color: black;
+	position: absolute;
+	top :425%;
+	width: 100%;
+}
+#insidecover{
+	position: relative;
+height: 800px;
+width: 100%;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
