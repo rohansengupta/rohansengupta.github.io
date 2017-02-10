@@ -64,7 +64,7 @@ font-size: 40px;
 }
 #container1{
   position: absolute;
-	width: 104%;
+	width: 100%;
 	top :100%;
 	background-color: green;
 background-image: url("par1.jpg");
