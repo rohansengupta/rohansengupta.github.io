@@ -9,7 +9,7 @@ window.onload = function(){
 	//canvas dimensions
 	W = window.innerWidth;
     H = window.innerHeight;
-	canvas.width = W-17;
+	canvas.width = W;
 	canvas.height =H;
 	
 	//snowflake particles
@@ -97,7 +97,7 @@ window.onresize = function(){
 	//canvas dimensions
 	 W = window.innerWidth;
 	 H = window.innerHeight;
-	canvas.width = W-17;
+	canvas.width = W;
 	canvas.height = H;
 	
 	
