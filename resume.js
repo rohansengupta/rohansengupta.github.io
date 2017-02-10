@@ -10,7 +10,7 @@ window.onload = function(){
 	W = window.innerWidth;
     H = window.innerHeight;
 	canvas.width = W;
-	canvas.height = H;
+	canvas.height = H-15;
 	
 	//snowflake particles
 	var mp = 25; //max particles
@@ -171,28 +171,32 @@ var max_scroll_height = $('body').height() - screen_height - 5;//-5 for a little
 
     if(element_in_view || has_reached_bottom_of_page) {
         //Do something
+       var div1=document.getElementById("down1");
+	var div2=document.getElementById("down2");
+	//var hand=document.getElementById("spec");
+	var div3=document.getElementById("down3");
 
-var up1=document.getElementById("up1");
-var up2=document.getElementById("up2");
-var up3=document.getElementById("up3");
+var cdiv1=document.getElementById("cdown1");
+	var cdiv2=document.getElementById("cdown2");
+	//var hand=document.getElementById("spec");
+	var cdiv3=document.getElementById("cdown3");
 
-var down1=document.getElementById("down1");
-var down2=document.getElementById("down2");
-var down3=document.getElementById("down3");
 
 var insidecover=document.getElementById("insidecover");
-
-up1.style.top=-(window.pageYOffset/5)+'px';
-down1.style.top=-(window.pageYOffset/5)+'px';
-
-up2.style.top=-(window.pageYOffset/5)+'px';
-down2.style.top=-(window.pageYOffset/5)+'px';
+	//var div4=document.getElementById("container");
+			
+div1.style.top=-(window.pageYOffset/5)+'px';
 
 
-up3.style.top=-(window.pageYOffset/5)+'px';
-down3.style.top=-(window.pageYOffset/5)+'px';
+div2.style.top=-(window.pageYOffset/5)+'px';
+div3.style.top=-(window.pageYOffset/5)+'px';
+			
+cdiv1.style.top=-(window.pageYOffset/5)+'px';
 
-insidecover.style.top=-(window.pageYOffset/5)+'px';
+
+cdiv2.style.top=-(window.pageYOffset/5)+'px';
+cdiv3.style.top=-(window.pageYOffset/5)+'px';
+insidecover.style.top=-(window.pageYOffset/0.2)+'px';
 
 
             }
