@@ -7,37 +7,73 @@
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script type="text/javascript" src="resume.js"></script>
     <link rel="stylesheet" href="resume.css">
+    <meta name="viewport" content="width=device-width" />
+<style>
+ @media   (max-width:   1420px) {
+     ul{
+     display:none;
+     }
+     #name{
+     	text-align: center;
+     	width: 100%;
+     }
+    }
+</style>
+
+
+
 </head>
     <body>
 
-<div id="menubar">
-	<a href="#"   onclick="smoothScroll(document.getElementById('down1'))">Email</a>
-</div>
 
 <div id = "photo">
 <img  height="100"  src="pic.jpg">
   KNOWLEDGE IS POWER.
 </div>
-<div id ="container"  >
 
-<div id="down1"></div>
-<div id="down2"></div>
-<div id="down3"></div>
+<div id="menubar">
+<div id="name" > ROHAN </div>
+<ul>
+<li><a href="mailto:rohansengupta97@gmail.com" onclick="smoothScroll(document.getElementById('down1'))">Myself</a></li>
+<li><a href="#" onclick="smoothScroll(document.getElementById('down1'))">EDU</a></li>
+<li><a href="#" onclick="smoothScroll(document.getElementById('down1'))">PROJECTS</a></li>
+<li><a href="#" onclick="smoothScroll(document.getElementById('down1'))">CERTIFICATES</a></li>
+<li><a href="#" onclick="smoothScroll(document.getElementById('down1'))">HOBBIES</a></li>
+<li><a href="#" onclick="smoothScroll(document.getElementById('down1'))">RESUME</a></li>
 
-<!--
-     <div id="down4" > </div>
-   -->
-     </div>
-<div id="container2">
-<div id="cdown1"></div>
-<div id="cdown2"></div>
-<div id="cdown3"></div>
+
+</ul>
 	
 </div>
+
+
+
+<div id ="container1"  >
+<div id="up1"></div>
+<div id="down1"></div>
+</div>
+
+     
+<div id ="container2" >
+<div id="up2"></div>
+<div id="down2"></div>
+</div>
+
+
+     
+<div id ="container3" >
+<div id="up3"></div>
+<div id="down3"></div>
+</div>
+
 <div id="cover">
 <div id="insidecover" ></div>
  </div>
+
+
             <canvas id="canvas"></canvas>
+
+
     </body>
 </html>
       

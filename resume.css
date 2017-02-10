@@ -5,15 +5,47 @@
 
 }
 #menubar{
-position: absolute;
 width: 100%;
 height: 50px;
-background-color: yellow;
-
+background-color: #151515;
+position: fixed;
 top:0%;
 left:0px;
 }
+#name{
+	float: left;
+	line-height: 50px;
+    color: white;
+    font-size: 20px;
+    width: 30%;
+    text-align: center;
+    margin-left: 20px;
+   margin-left: 50px;
+}
+ul{
+	float: left;
+	color: white;
+	text-decoration: none;
+	list-style: none;
+	width: 55%;
+	margin-left: 50px;
+	margin-right: 0px;
+}
+ul li  {
+	float: left;
+	display: block;
 
+}
+ul li a  {
+	float: left;
+	display: block;
+	color: white;
+	font-size: 22px;
+	text-decoration: none;
+		 line-height: 50px;
+	 margin-left: 20px;
+	 margin-right: 20px;
+}
 
 canvas {
 	display: block;
@@ -25,48 +57,95 @@ background-position: 0 0;
 
 #photo{
 position:absolute;
-top :42%;
+top :40%;
 left:30%;
-color:white;
-font-size: 50px;
+color:#d3d3d3;
+font-size: 40px;
 }
-#container{
+#container1{
   position: absolute;
 	width: 100%;
 	top :100%;
 	background-color: green;
-background-image: url("par.jpg");
+background-image: url("par1.jpg");
 background-size: cover;
 }
 #container2{
   position: absolute;
 	width: 100%;
-	top :255%;
+	top :205%;
 	
 	background-image: url("par2.jpg");
      background-size: cover;
 }
 
+#container3{
+  position: absolute;
+	width: 100%;
+	top :310%;
+	
+	background-image: url("par3.jpg");
+     background-size: cover;
+}
 
 
-#cdown1{
+#cover{
+position: absolute;
+	width: 100%;
+	top: 415%;
+	
+	background-image: url("endpic.jpg");
+	background-size: cover;
+	}
+
+#insidecover{
+	height: 500px;
+     position: relative;
+     width: 100%;
+     background-color: violet;
+}
+
+#up1{
 	position: relative;
 	height: 60vh;
 	width: 100%;
 	background-color: blue;
 }
-#cdown2{
+#down1{
  position: relative;
 	height: 40vh;
 	width: 100%;
 }
-#cdown3{
-position: relative;
 
+
+#up2{
+	position: relative;
+	height: 60vh;
+	width: 100%;
+	background-color: red;
+}
+#down2{
+ position: relative;
+	height: 40vh;
+	width: 100%;
+}
+
+
+
+#up3{
+	position: relative;
 	height: 60vh;
 	width: 100%;
 	background-color: orange;
 }
+#down3{
+ position: relative;
+	height: 40vh;
+	width: 100%;
+}
+
+
+/*
 #cover {
 	background-color: black;
 	position: absolute;
@@ -79,6 +158,7 @@ height: 800px;
 width: 100%;
 }
 
+*/
 
 
 
@@ -90,33 +170,3 @@ width: 100%;
 
 
 
-
-
-
-
-
-#down1{
-	position: relative;
-	height:  50vh;
-	width: 100%;
-	background-color: blue;
-}
-#down2{
- position: relative;
-	height:  50vh;
-	width: 100%;
-}
-#down3{
-position: relative;
-
-	height: 50vh;
-	width: 100%;
-	background-color: orange;
-}
-#down4{
-position: relative;
-
-	height: 400px;
-	width: 100%;
-	background-color: violet;
-}
