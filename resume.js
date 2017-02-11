@@ -182,17 +182,17 @@ var down3=document.getElementById("down3");
 
 var insidecover=document.getElementById("insidecover");
 
-up1.style.top=-(window.pageYOffset/5)+'px';
-down1.style.top=-(window.pageYOffset/5)+'px';
+up1.style.top=-(window.pageYOffset/4)+'px';
+down1.style.top=-(window.pageYOffset/4)+'px';
 
-up2.style.top=-(window.pageYOffset/5)+'px';
-down2.style.top=-(window.pageYOffset/5)+'px';
+up2.style.top=-(window.pageYOffset/4)+'px';
+down2.style.top=-(window.pageYOffset/4)+'px';
 
 
-up3.style.top=-(window.pageYOffset/5)+'px';
-down3.style.top=-(window.pageYOffset/5)+'px';
+up3.style.top=-(window.pageYOffset/4)+'px';
+down3.style.top=-(window.pageYOffset/4)+'px';
 
-insidecover.style.top=-(window.pageYOffset/5)+'px';
+insidecover.style.top=-(window.pageYOffset/4)+'px';
 
 
             }

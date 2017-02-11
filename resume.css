@@ -114,7 +114,7 @@ position: absolute;
 	position: relative;
 	height: 60vh;
 	width: 100%;
-	background-color: blue;
+	background-color: white;
 }
 #down1{
  position: relative;
@@ -127,7 +127,7 @@ position: absolute;
 	position: relative;
 	height: 60vh;
 	width: 100%;
-	background-color: red;
+	background-color: white;
 }
 #down2{
  position: relative;
@@ -141,7 +141,7 @@ position: absolute;
 	position: relative;
 	height: 60vh;
 	width: 100%;
-	background-color: orange;
+	background-color: white;
 }
 #down3{
  position: relative;
