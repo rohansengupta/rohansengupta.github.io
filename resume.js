@@ -170,8 +170,10 @@ var max_scroll_height = $('body').height() - screen_height - 5;//-5 for a little
     var has_reached_bottom_of_page = max_scroll_height <= y_scroll_pos && !element_in_view;
 
     if(element_in_view || has_reached_bottom_of_page) {
+
         //Do something
 
+/*
 var up1=document.getElementById("up1");
 var up2=document.getElementById("up2");
 var up3=document.getElementById("up3");
@@ -180,20 +182,24 @@ var down1=document.getElementById("down1");
 var down2=document.getElementById("down2");
 var down3=document.getElementById("down3");
 
+
+
 var insidecover=document.getElementById("insidecover");
 
-up1.style.top=-(window.pageYOffset/4)+'px';
-down1.style.top=-(window.pageYOffset/4)+'px';
-
-up2.style.top=-(window.pageYOffset/4)+'px';
-down2.style.top=-(window.pageYOffset/4)+'px';
+up1.style.top=-(window.pageYOffset/3)+'px';
+down1.style.top=-(window.pageYOffset/3)+'px';
 
 
-up3.style.top=-(window.pageYOffset/4)+'px';
-down3.style.top=-(window.pageYOffset/4)+'px';
 
-insidecover.style.top=-(window.pageYOffset/4)+'px';
+up2.style.top=-(window.pageYOffset/3)+'px';
+down2.style.top=-(window.pageYOffset/3)+'px';
 
+
+up3.style.top=-(window.pageYOffset/3)+'px';
+down3.style.top=-(window.pageYOffset/3)+'px';
+
+insidecover.style.top=-(window.pageYOffset/5)+'px';
+*/
 
             }
            });

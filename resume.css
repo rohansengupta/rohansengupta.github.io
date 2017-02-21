@@ -4,6 +4,7 @@
   margin: 0;
 
 }
+
 #menubar{
 width: 95%;
 height: 50px;
@@ -23,6 +24,15 @@ left:0px;
    margin-left: 50px;
 }
 
+#myself{
+	position: relative;
+	font-size: 15px;
+	width: 80%;
+	left: 10%;
+	right: 10%;
+	text-align: center;
+}
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -33,7 +43,7 @@ ul{
 	text-decoration: none;
 	list-style: none;
 	width: 55%;
-	margin-left: 50px;
+	margin-left: 40px;
 	margin-right: 0px;
 }
 ul li  {
@@ -45,7 +55,7 @@ ul li a  {
 	float: left;
 	display: block;
 	color: white;
-	font-size: 22px;
+	font-size:16px;
 	text-decoration: none;
 		 line-height: 50px;
 	 margin-left: 20px;
@@ -68,70 +78,73 @@ font-size: 40px;
 font-family:Lucida Calligraphy;
 }
 #container1{
-  position: absolute;
+  position: relative;
 	width: 100%;
-	top :100%;
+	/*top: 200%;*/
+
 	background-color: green;
 background-image: url("par1.jpg");
 background-size: cover;
+background-attachment: fixed;
 }
 #container2{
-  position: absolute;
+  position: relative;
 	width: 100%;
-	top :205%;
+/*	top :1700px;*/
 	
+
 	background-image: url("par2.jpg");
      background-size: cover;
+     background-attachment: fixed;
 }
-
 #container3{
-  position: absolute;
+  position: relative;
 	width: 100%;
-	top :310%;
+/*	top :310%;*/
 	
 	background-image: url("par3.jpg");
      background-size: cover;
+     background-attachment: fixed;
 }
 
 
 #cover{
-position: absolute;
+position: relative;
 	width: 100%;
-	top: 415%;
+	/*top: 415%;*/
 	
 	background-image: url("endpic.jpg");
 	background-size: cover;
 	}
 
 #insidecover{
-	height: 500px;
+	height: 800px;
      position: relative;
      width: 100%;
-     background-color: violet;
+     background-color: blue;
 }
 
 #up1{
 	position: relative;
-	height: 60vh;
+  	height: 100%;
 	width: 100%;
 	background-color: white;
 }
 #down1{
  position: relative;
-	height: 40vh;
+	height: 400px;
 	width: 100%;
 }
 
 
 #up2{
 	position: relative;
-	height: 60vh;
 	width: 100%;
 	background-color: white;
 }
 #down2{
  position: relative;
-	height: 40vh;
+	height: 400px;
 	width: 100%;
 }
 
@@ -139,13 +152,13 @@ position: absolute;
 
 #up3{
 	position: relative;
-	height: 60vh;
+	height: 80vh;
 	width: 100%;
-	background-color: white;
+	background-color: violet;
 }
 #down3{
  position: relative;
-	height: 40vh;
+	height: 400px;
 	width: 100%;
 }
 
@@ -167,6 +180,81 @@ width: 100%;
 
 
 
+
+#eduwrapper{
+	
+	width: 70%;
+	background-color:white;
+	margin-left: 15%;
+ 
+  overflow: hidden;
+}
+#school{
+		position: relative;
+	float: left;
+	width: 30%;
+background-color: white;
+
+}
+#schoolpic{
+
+ margin:auto;
+height: 160px;
+width: 160px;
+
+}
+#schooltext{
+
+}
+#coaching{
+		position: relative;
+	float: left;
+	margin-left: 4%;
+background-color: white;
+		width: 30%;
+	
+
+}
+#coachingpic{
+
+ margin:auto;
+height: 160px;
+width: 160px;
+
+}
+#coachingtext{
+
+}
+
+
+
+#college{
+background-color: white;
+
+	width: 30%;
+
+	margin-left: 68%;
+}
+#collegepic{
+ margin:auto;
+height: 160px;
+width: 160px;
+
+}
+#collegetext{
+
+}
+#edu_para
+{
+    margin: 5%;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 150%;
+    font-family:Perpetua;
+   
+    width: 90%;
+    line-height: 25px;
+}
 
 
 

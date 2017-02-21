@@ -8,7 +8,7 @@
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script type="text/javascript" src="resume.js"></script>
     <link rel="stylesheet" href="resume.css">
-    
+     <link href="materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
 <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1,user-scalable=no" />
 
 <style>
@@ -32,7 +32,11 @@
 
 </head>
     <body>
+
  <canvas id="canvas"></canvas>
+ <div id="front" >
+    
+</div>
 
 <div id = "photo">
 <img  height="100"  src="pic.jpg">
@@ -42,10 +46,12 @@
 <div id="menubar">
 <div id="name" > ROHAN </div>
 <ul>
-<li><a href="mailto:rohansengupta97@gmail.com" onclick="smoothScroll(document.getElementById('down1'))">Myself</a></li>
+<li><a href="#" onclick="smoothScroll(document.getElementById('down1'))">Myself</a></li>
 <li><a href="#" onclick="smoothScroll(document.getElementById('down1'))">EDU</a></li>
+<li><a href="#" onclick="smoothScroll(document.getElementById('down1'))">SKILLS</a></li>
+
 <li><a href="#" onclick="smoothScroll(document.getElementById('down1'))">PROJECTS</a></li>
-<li><a href="certificate.html">CERTIFICATES</a></li>
+<li><a href="certificate.html">Achievements</a></li>
 <li><a href="#" onclick="smoothScroll(document.getElementById('down1'))">HOBBIES</a></li>
 <li><a href="#" onclick="smoothScroll(document.getElementById('down1'))">RESUME</a></li>
 
@@ -57,13 +63,86 @@
 
 
 <div id ="container1"  >
-<div id="up1"></div>
+<div id="up1">
+                <div class="row">
+                    <div class="col s10 offset-s1 center">
+    <p>    <br> <h4>Myself In Short</h4> </p>
+<div id="myself">
+    <p class="Josephin" style="font-size:130%">
+Hello World:)!! I am pursuing a major in Computer Science at <a href="http://www.bits-pilani.ac.in/Goa/index.aspx" class="Jura" target="_blank">BITS Pilani, K.K. Birla Goa Campus</a>.
+  <br>
+   <br>
+ I am among someone who is consistently growing themselves and who takes the time to continue learning. I am modest, but hard working and I consistently set firm goals for myself.  Then, once I've defined the benchmarks, I take the necessary steps to achieve those milestones. Everyday I work to improve myself and my skills . I love learning new stuff and I don't think I am ever going to get satiated with the things I already know.
+    <br>
+    <br>
+ I wouldn't talk much about my strengths and weaknesses here. You might have a chance to figure them out when you get to know me personally :P.
+                            <br>
+                            <br> <br>
+                        </p>
+</div>
+</div>
+</div>
+</div>
 <div id="down1"></div>
 </div>
 
      
 <div id ="container2" >
-<div id="up2"></div>
+  <div id="up2">
+      <!------------------>
+    <div id ="eduwrapper"> 
+    <h4 class="center">EDUCATION</h4>
+              <br>
+        <div id="school" >  
+
+             <div id="schoolpic" > <img src="cathedral.jpg" width="100%" height="100%" > 
+             </div>
+             <br>
+             <div id="schooltext">
+                 
+                  <p id="edu_para">
+                     <b> <span style="font-size:140%;">Cathedral High School</span></b><br>
+                      <br><b>Secondary School Certificate</b>
+                      <br><b>Class IV to Class X</b>
+                      <br>(2007-2013)
+                      <br>
+                      <br>This was the place where I learnt about smart work and discipline. It laid the foundation for my future. Also made some true friends.<br><br>
+
+                  </p>
+                                  </div> 
+        </div> <!-- school -->
+       <div id="coaching" >  
+
+             <div id="coachingpic" > <img src="sri.png" width="100%" height="100%" > </div>
+             <br>
+             <div id="coachingtext">
+                  <p id="edu_para">
+                      <b> <span style="font-size:140%">Sri Chaitanya</span></b><br>
+                      <br><br><b>Intermediate Education</b>
+                      <br><b>Class XI and XII</b>
+                      <br>(2013-2015)
+                      <br><br>I was given solid competitive exam coaching here along with the regular curriculum helping me secure top ranks in the exams.
+                  </p></div>
+        </div> <!-- coaching -->
+
+        <div id="college" >  
+
+             <div id="collegepic" > <img src="bits.png" width="100%" height="100%" >  </div>
+             <div id="collegetext"><p id="edu_para"><br>
+                      <b> <span style="font-size:140%"> BITS Pilani, K.K. Birla Goa Campus</span></b>
+                      <br>
+                      <br><b>B.E. Computer Science</b>
+                      <br><b>Undergraduate Studies</b>
+                      <br>(2015-2019)<br>
+                      <br>This has truly been a home away from home. With excellent mentorship from the faculty, I have understood the true essence of Computer Science. <br><br>
+
+                  </p>
+                  </div> <!-- collegetext -->
+        </div> <!-- college -->
+  </div>
+      <!--  </div>edu wrapper -->
+    <!------------------>
+    </div>   
 <div id="down2"></div>
 </div>
 
