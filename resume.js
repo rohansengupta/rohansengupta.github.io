@@ -1,6 +1,6 @@
 var W;
 var H;
-$(document).ready(function(){
+//$(document).ready(function(){
 window.onload = function(){
 	//canvas init
 	var canvas = document.getElementById("canvas");
@@ -89,7 +89,7 @@ window.onload = function(){
 
 }
 
-})
+//})
 
 window.onresize = function(){
 	//canvas init
