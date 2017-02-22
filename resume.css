@@ -7,7 +7,8 @@
 
 canvas {
 	background-color: orange;
-	width: 1500px;
+	width: 100vw;
+	height: 100vh;
 	background-image: url("FrontCover.jpg") ;
     background-repeat: no-repeat;
 /*background-position: 0 0;*/
