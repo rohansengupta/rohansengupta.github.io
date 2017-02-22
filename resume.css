@@ -5,6 +5,12 @@
 
 }
 
+canvas {
+	background-image: url("FrontCover1.jpg") ;
+    background-repeat: no-repeat;
+/*background-position: 0 0;*/
+  background-size:cover;
+	}
 #menubar{
 width: 95%;
 height: 50px;
@@ -62,12 +68,6 @@ ul li a  {
 	 margin-right: 20px;
 }
 
-canvas {
-	background-image: url("FrontCover1.jpg") ;
-    background-repeat: no-repeat;
-/*background-position: 0 0;*/
-  background-size:cover;
-	}
 
 #photo{
 position:absolute;
