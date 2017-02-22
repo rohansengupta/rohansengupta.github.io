@@ -6,6 +6,7 @@
 }
 
 canvas {
+	background-color: orange;
 	background-image: url("FrontCover.jpg") ;
     background-repeat: no-repeat;
 /*background-position: 0 0;*/

@@ -11,7 +11,7 @@ window.onload = function(){
     H = window.innerHeight;
 	canvas.width = W;
 	canvas.height =H;
-/*	
+	
 	//snowflake particles
 	var mp = 25; //max particles
 	var particles = [];
@@ -86,7 +86,6 @@ window.onload = function(){
 	
 	//animation loop
 	setInterval(draw, 33);
-*/
 }
 
 //})
