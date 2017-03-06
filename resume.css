@@ -84,8 +84,6 @@ font-family:Lucida Calligraphy;
   position: relative;
 	width: 100%;
 	/*top: 200%;*/
-
-	background-color: green;
 background-image: url("par1.jpg");
 background-size: cover;
 background-attachment: fixed;
@@ -270,7 +268,7 @@ padding-bottom: 30px;
 
 .col6{
 	font-size: 20px;
-	margin-left: 500px;
+	margin-left: 550px;
 }
 
 #courses ul li {
