@@ -3,6 +3,68 @@ var H;
 //$(document).ready(function(){
 window.onload = function(){
 	//canvas init
+
+	////////////////////////////////
+
+
+var lang=document.getElementById("lang");
+var club=document.getElementById("club");
+var soft=document.getElementById("soft");
+var course=document.getElementById("course");
+var code=document.getElementById("code");
+
+
+var intro=document.getElementById("intro");
+var languages=document.getElementById("languages");
+var clubs=document.getElementById("clubs");
+var courses=document.getElementById("courses");
+var softwares=document.getElementById("softwares");
+var coding=document.getElementById("coding");
+
+lang.onclick =function(){
+	intro.style.display="none";
+	languages.style.display="block";
+    clubs.style.display="none";
+	courses.style.display="none";
+	softwares.style.display="none";
+	coding.style.display="none";	 
+}
+club.onclick =function(){
+    intro.style.display="none";
+	languages.style.display="none";
+    clubs.style.display="block";
+	courses.style.display="none";
+	softwares.style.display="none";
+	coding.style.display="none";
+}
+
+soft.onclick =function(){
+    intro.style.display="none";
+	languages.style.display="none";
+    clubs.style.display="none";
+	courses.style.display="none";
+	softwares.style.display="block";
+	coding.style.display="none";
+}
+
+course.onclick =function(){
+    intro.style.display="none";
+	languages.style.display="none";
+    clubs.style.display="none";
+	courses.style.display="block";
+	softwares.style.display="none";
+	coding.style.display="none";
+}
+
+code.onclick =function(){
+    intro.style.display="none";
+	languages.style.display="none";
+    clubs.style.display="none";
+	courses.style.display="none";
+	softwares.style.display="none";
+	coding.style.display="block";
+}
+	/////////////////////////////
 	var canvas = document.getElementById("canvas");
 	var ctx = canvas.getContext("2d");
 	
@@ -218,3 +280,61 @@ div2.style.top=-(window.pageYOffset/8)+'px';
 
 }
 */
+
+var lang=document.getElementById("lang");
+var club=document.getElementById("club");
+var soft=document.getElementById("soft");
+var course=document.getElementById("course");
+var code=document.getElementById("code");
+
+
+var intro=document.getElementById("intro");
+var languages=document.getElementById("languages");
+var clubs=document.getElementById("clubs");
+var courses=document.getElementById("courses");
+var softwares=document.getElementById("softwares");
+var coding=document.getElementById("coding");
+
+lang.onclick =function(){
+	intro.style.display="none";
+	languages.style.display="block";
+    clubs.style.display="none";
+	courses.style.display="none";
+	softwares.style.display="none";
+	coding.style.display="none";	 
+}
+club.onclick =function(){
+    intro.style.display="none";
+	languages.style.display="none";
+    clubs.style.display="block";
+	courses.style.display="none";
+	softwares.style.display="none";
+	coding.style.display="none";
+}
+
+soft.onclick =function(){
+    intro.style.display="none";
+	languages.style.display="none";
+    clubs.style.display="none";
+	courses.style.display="none";
+	softwares.style.display="block";
+	coding.style.display="none";
+}
+
+course.onclick =function(){
+    intro.style.display="none";
+	languages.style.display="none";
+    clubs.style.display="none";
+	courses.style.display="block";
+	softwares.style.display="none";
+	coding.style.display="none";
+}
+
+code.onclick =function(){
+    intro.style.display="none";
+	languages.style.display="none";
+    clubs.style.display="none";
+	courses.style.display="none";
+	softwares.style.display="none";
+	coding.style.display="block";
+}

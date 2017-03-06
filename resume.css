@@ -2,7 +2,7 @@
 	 
   padding:0; 
   margin: 0;
-
+font-family:Lucida Calligraphy;
 }
 
 canvas {
@@ -15,7 +15,7 @@ canvas {
   background-size:cover;
 	}
 #menubar{
-width: 95%;
+width: 100%;
 height: 50px;
 background-color: #151515;
 position: fixed;
@@ -27,10 +27,10 @@ left:0px;
 	line-height: 50px;
     color: white;
     font-size: 20px;
-    width: 30%;
+    width: 20%;
     text-align: center;
-    margin-left: 20px;
-   margin-left: 50px;
+    
+   margin-left: 35px;
 }
 
 #myself{
@@ -46,21 +46,21 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-ul{
+ #menubar ul{
 	float: left;
 	color: white;
 	text-decoration: none;
 	list-style: none;
-	width: 55%;
-	margin-left: 40px;
+	width: 70%;
+	margin-left: 35px;
 	margin-right: 0px;
 }
-ul li  {
+ #menubar ul li  {
 	float: left;
 	display: block;
 
 }
-ul li a  {
+ #menubar ul li a  {
 	float: left;
 	display: block;
 	color: white;
@@ -119,21 +119,16 @@ background-attachment: fixed;
      background-attachment: fixed;
 }
 
-#cover{
-position: relative;
+#container5 {
+  position: relative;
 	width: 100%;
-	/*top: 415%;*/
+/*	top :310%;*/
 	
-	background-image: url("endpic.jpg");
-	background-size: cover;
-	}
-
-#insidecover{
-	height: 800px;
-     position: relative;
-     width: 100%;
-     background-color: blue;
+	background-image: url("par5.jpg");
+     background-size: cover;
+     background-attachment: fixed;
 }
+
 
 #up1{
 	position: relative;
@@ -190,6 +185,144 @@ font-size: 30px;
 	width: 100%;
 }
 
+#up5{
+	position: relative;
+font-size: 30px;
+	width: 100%;
+	background-color: #fdf6ee;
+  
+	overflow: hidden;
+	padding-bottom: 30px;
+	padding-right: 5%;
+}
+#down5{
+ position: relative;
+	height: 400px;
+	width: 100%;
+
+}
+#skill{
+	width: 100%;
+
+}
+#sidepanel{
+color: black;
+	height:200px;
+	width: 20%;
+	float: left;
+    margin-left: 1%;
+}
+#sidepanel ul{display: block;}
+#sidepanel ul li{
+	font-size: 20px;
+	color: black;
+	background-color: white;
+   display: block;
+   border: 1px solid black;
+ 
+}
+#sidepanel a{
+	text-decoration: none;
+  color: black;
+  display: block;
+  text-align: center;
+   padding-top: 15px;
+    padding-bottom: 15px;
+}
+#details{
+	width: 75%;
+	margin-left: 25%;
+}
+#intro{
+	width: 100%;
+	background-color: white;
+	overflow: hidden;
+}
+#languages{
+	display: none;
+width: 100%;
+background-color: white;
+padding-bottom: 30px;
+}
+#languages ul li{
+	font-size: 25px;
+	list-style-type: circle;
+}
+.col1{
+	float: left;
+	margin-left: 10%;
+     font-size: 25px;
+}
+.col2{
+	margin-left: 300px;
+}
+.col3{
+	font-size: 25px;
+	margin-left: 450px;
+}
+
+
+.col5{
+	float: left;
+	margin-left: 10%;
+     font-size: 20px;
+}
+
+.col6{
+	font-size: 20px;
+	margin-left: 500px;
+}
+
+#courses ul li {
+list-style-type: circle;
+margin: 0 0 8px 0;
+}
+.centre{
+	text-align: center;
+}
+.pl{
+	margin-left: 10%;
+	font-family:Lucida Calligraphy;
+
+}
+#clubs{
+width: 100%;
+background-color: white;
+overflow: hidden;
+display: none;
+
+}
+
+.det{
+	font-size: 20px;
+}
+#indent0{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#indent{
+	margin-left: 10%;
+}
+#softwares{width: 100%;display: none;
+background-color: white;overflow: hidden;
+}
+#softwares ul li {
+    list-style-type: circle;
+}
+#courses{
+width: 100%;
+overflow: hidden;
+background-color: white;
+display: none;
+}
+#coding{
+width: 100%;
+background-color: white;
+overflow: hidden;display: none;
+}
+.a{
+	color: black;
+}
 /*
 #cover {
 	background-color: black;
@@ -213,7 +346,8 @@ width: 100%;
 	width: 70%;
 	background-color:white;
 	margin-left: 15%;
- 
+ font-family:Lucida Calligraphy;
+
   overflow: hidden;
 }
 #school{
@@ -230,9 +364,7 @@ height: 160px;
 width: 160px;
 
 }
-#schooltext{
 
-}
 #coaching{
 		position: relative;
 	float: left;
@@ -249,11 +381,19 @@ height: 160px;
 width: 160px;
 
 }
-#coachingtext{
+
+#schooltext{
+	font-family:Lucida Calligraphy;
 
 }
+#coachingtext{
+	font-family:Lucida Calligraphy;
 
+}
+#collegetext{
+	font-family:Lucida Calligraphy;
 
+}
 
 #college{
 background-color: white;
@@ -268,16 +408,15 @@ height: 160px;
 width: 160px;
 
 }
-#collegetext{
 
-}
 #edu_para
 {
     margin: 5%;
     margin-top: 10px;
     text-align: center;
-    font-size: 150%;
-    font-family:Perpetua;
+    font-size: 130%;
+    
+	font-family:Lucida Calligraphy;;
    
     width: 90%;
     line-height: 25px;
@@ -326,4 +465,66 @@ font-size: 30px;
   border: 2px solid black;
  box-shadow: 10px 10px 10px #888888;
   box-shadow: 5px;
+}
+#sidepanel a:hover { 
+    background-color: grey;
+     font-size: 18px;
+}
+.class="fa fa-angle-double-right{
+  font-size: 1px;
+}
+#last {
+	position: relative;
+
+	width: 100%;
+	margin-bottom: 50px;
+background-color: red;
+	background-image: url("par4.jpg");
+     background-color: red;
+     background-size:      cover;
+   
+
+	
+}
+#inlast{
+	width: 100%;
+	height: 800px;
+
+    background-image: url("last.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#button1{
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-right: 16px;
+	padding-left: 16px;
+ position: relative;
+  	top: 400px;
+    color: black;
+	left: 23%;
+	background-color: pink;
+	font-size: 20px;
+	
+}
+#button2{
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-right: 16px;
+	padding-left: 16px;
+ position: relative;
+  	top: 400px;
+color: black;
+	left: 49%;
+ background-color: pink;	
+ font-size: 20px;
+}
+
+#button1:hover{
+background-color: violet;
+color: black;
+}
+#button2:hover{
+background-color: violet;
+color: black;
 }
